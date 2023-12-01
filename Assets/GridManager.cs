@@ -48,7 +48,7 @@ public class GridManager : MonoBehaviour
                 DrawSquare(lines[x, y], x, y);
             }
         }
-        mainCamera.transform.position = new Vector3(gridWidth/2, gridHeight/2, mainCamera.transform.position.z);
+        mainCamera.transform.position = new Vector3((float)(gridWidth/2), (float)(gridHeight/2), mainCamera.transform.position.z);
     }
 
     // Update is called once per frame
